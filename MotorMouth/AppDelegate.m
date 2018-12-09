@@ -49,7 +49,7 @@
     }
     [UNUserNotificationCenter currentNotificationCenter].delegate = self;
     
-    [application registerForRemoteNotifications];
+    //[application registerForRemoteNotifications];
     
     
      [FIRMessaging messaging].delegate = self;
